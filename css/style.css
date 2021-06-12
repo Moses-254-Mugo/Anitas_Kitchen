@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding:0 40px 0 40px;
+
+}
+/*Style Banner*/
+.banner{
+    background: url("../images/landing.jpg") no-repeat center;
+    background-size: cover;
+    padding: 20px;
+}
+.content{
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+.content p{
+    font-size: 30px;
+}
+ /*Styling Column Container*/
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ /*Style second div from banner */
+ .column{
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.left{
+    height: 200px;
+    text-align: center;
+    
+}
+.top{
+    background-color: #ccc ;
+    padding: 19px;
+
+
+}
+.bottom{
+    background-color: #F15A29 ;
+    padding: 19px;
+}
+.breakfast{
+
+    background: url("../images/breakfast.jpg") no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    height: 200px;
+    
+}
+.lunch{
+    background: url("../images/lunch.jpg") no-repeat center;
+    background-size: cover;
+    opacity: 0.5;
+    padding: 20px;
+    height: 200px;
+
+}
+.dinner{
+    background: url("../images/dinner.jpg") no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    height: 200px;
+}
+/*Style fast food container*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1170px;
+ }
+ .col{
+     margin: 0 auto;
+     
+     background: #fff;
+     border-radius: 10px;
+     width: 40%;
+ }
+ .card{
+     padding: 15px 25px;
+     box-shadow: 0 1px 3px #bbb;
+     margin: 10%;
+ }
+ .col img{
+
+     max-width: 100%;
+     max-height: 100%;
+     border: 1x solid gray;
+ }
+ .mg-right{
+     margin-left: -0.1em;
+
+ }
+ .link{
+     color: #F15A29;
+     border: 1px solid #F15A29 ;
+ }
+ /*Style menu*/
+ .menu{
+    background: url("../images/foodsBg.jpg") no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    width: 100%;
+}
+.cont_menu{
+    margin: 5%;
+    background-color: white;
+    max-width: 100%;
+ 
+}
+/*Style the .cont_menu navigation bar*/
+.navbar{
+    background-color: #ccc;
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display:block;
+    padding: 14px 16px;
+    width: 100%;
+    font-size: 17px;
+}
+a:hover{
+    background-color: white;
+    color:#F15A29 ;
+    font-size: 19px;
+
+}
+.thumbnail{
+    float: left;
+    width: 180px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.thumbnail img{
+    margin: 10px;
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    color: #F15A29;
+    
+}
+/*Styling Happy customer section*/
+.wrapper_1{
+    background-color:#fff;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.card_customer{
+    text-align: center;
+}
+#customer_icon li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px;
+    
+}
+.previous{
+    background-color: white;
+    color: #F15A29 ;
+
+
+}
+.next{
+    background-color: white;
+    color: #F15A29  ;
+}
+/*Style feedback section*/
+.feedback{
+    background: url("../images/subscribe.jpg") no-repeat center;
+    background-size: cover;
+    padding: 70px;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+.con_tent{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 0 auto;
+}
+input[type="text"]{
+    border: none;
+    outline: none;
+    padding: 13px 15px;
+    opacity: 0.3;
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    color: white;
+    padding: 13px 15px;
+    border-radius: 3px;
+    background-color: #F15A29;
+    font-size: 18px;
+    
+}
+/*Change features on hover*/
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ccc;
+    color: black;
+    font-size: 20px;
+
+}
+/*Footer section*/
+#footer{
+    background-color: #F15A29;
+    padding: 10px;
+    text-align: center;
+}
+#footer h1{
+    font-size: 30px;
+    color: #fff;
+}
+#footer h5{
+    color: #fff;
+    font-size: 19px;
+    margin-top: -0.5em;
+}
+.media li{
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    margin: 5px 14px;
+}
+#footer p{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+

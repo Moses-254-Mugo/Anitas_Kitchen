@@ -12,6 +12,21 @@ body{
     background-size: cover;
     padding: 20px;
 }
+/*Style Three line menu*/
+.line_menu{
+    width: 100px;
+    height: 100px;
+
+}
+.line{
+    display: block;
+    border: 2px solid #fff;
+    background: #fff;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
 .content{
     margin-top: 40px;
     text-align: center;
